@@ -1,6 +1,6 @@
 # repo-organizer
 ## Description
-A short, but hacky script used to manage stundents repositories at Hochschule Mannheim.
+The orginal HSMA reposcript™
 
 ## Requirements
 ### Install CDT
