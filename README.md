@@ -1,6 +1,6 @@
 # repo-organizer
 ## Description
-The orginal HSMA reposcript™
+A short, but hacky script used to manage stundents repositories at Hochschule Mannheim.
 
 ## Requirements
 ### Install CDT
@@ -9,3 +9,8 @@ This can be done via "Help > Install new software" in Eclipse.
 
 ### Edit Variables
 Change the Variables **eclipsePath** and **gitAccessMethod** to the absolute Path of your Eclipse Binary and Method how to access Git (HTTPS or SSH).
+
+### Make the script executable 
+´´´
+chmod 700 reposcript.sh
+´´´
