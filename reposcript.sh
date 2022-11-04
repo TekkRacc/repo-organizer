@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # Variables
-eclipsePath=/usr/bin/eclipse
+eclipsePath=/Applications/Eclipse.app/Contents/MacOS/eclipse
 gitAccessMethod='HTTPS'
 
 # Color
