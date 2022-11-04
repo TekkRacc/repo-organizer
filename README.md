@@ -1,6 +1,6 @@
 # repo-organizer
 ## Description
-A short, but hacky script used to manage stundents repositories at Hochschule Mannheim.
+The original Hochschule Mannheim PR1 Repo-Manager!
 
 ## Requirements
 ### Install CDT
