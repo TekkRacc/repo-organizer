@@ -15,7 +15,6 @@ dirPath=$(mktemp -d)
 input=""
 
 trap "rm -rf ${dirPath} & exit" INT
-git config credential.helper cache
 
 execute () {
 	mkdir -p ${dirPath}/tmp_workspace
