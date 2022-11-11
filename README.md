@@ -14,3 +14,10 @@ Change the Variables **eclipsePath** and **gitAccessMethod** to the absolute Pat
 ```
 chmod 700 reposcript.sh
 ```
+
+### Quality of Life
+When you are using HTTPS as git access method, constantly re-typing your git credentials can be annoying. Use:
+```
+git config credential.helper cache
+```
+to tell git to cache your credentials for this session.

@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # Variables
-eclipsePath=/Applications/Eclipse.app/Contents/MacOS/eclipse
+eclipsePath=/usr/bin/eclipse
 gitAccessMethod='HTTPS'
 
 # Color
@@ -15,6 +15,7 @@ dirPath=$(mktemp -d)
 input=""
 
 trap "rm -rf ${dirPath} & exit" INT
+git config credential.helper cache
 
 execute () {
 	mkdir -p ${dirPath}/tmp_workspace
